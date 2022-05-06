@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "proyectos",
+  "collectionName": "skills",
   "info": {
-    "name": "proyectos",
+    "name": "skills",
     "description": ""
   },
   "options": {
@@ -16,20 +16,8 @@
       "type": "string",
       "required": true
     },
-    "description": {
+    "experience": {
       "type": "richtext",
-      "required": true
-    },
-    "usedSkills": {
-      "type": "string",
-      "required": true
-    },
-    "repo": {
-      "type": "string",
-      "required": true
-    },
-    "url": {
-      "type": "string",
       "required": true
     },
     "image": {
@@ -41,10 +29,6 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
-    },
-    "tech": {
-      "type": "string",
-      "required": true
     }
   }
 }
