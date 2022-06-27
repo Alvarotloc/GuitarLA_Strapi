@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   defaultConnection: 'default',
-  connections: {
+  connections:{
     default: {
       connector: 'mongoose',
       settings: {
