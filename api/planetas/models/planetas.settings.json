@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "planetas",
+  "info": {
+    "name": "planetas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "distance": {
+      "type": "string"
+    },
+    "travel": {
+      "type": "string"
+    }
+  }
+}

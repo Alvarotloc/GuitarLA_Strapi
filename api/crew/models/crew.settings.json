@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crews",
+  "info": {
+    "name": "crew"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "string"
+    },
+    "rol": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    }
+  }
+}
